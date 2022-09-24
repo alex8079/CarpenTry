@@ -208,8 +208,14 @@ body.no-scroll{
 	padding-right:32px;
 }
 */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1){
+	.blog-cards{
+		flex-direction: column;
+		align-items: center;
+	}
+}
 
-@media screen and (max-width: 811px){
+@media only screen and (max-width:767.8px){
 	.blog-cards{
 		flex-direction: column;
 		align-items: center;
@@ -220,12 +226,6 @@ body.no-scroll{
 	.text{
 		padding-right: 0;
 		width: 573px;	
-	}
-}
-@media screen and (max-width: 1130px) {
-	.blog-cards{
-		flex-direction: column;
-		align-items: center;
 	}
 }
 
