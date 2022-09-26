@@ -10,7 +10,7 @@
 </head>
 
 <body>
-	<header class="hdr" id="home" >
+	<header class="header" id="home" >
 		<div class="container">
 			<div class="header-container">
 				<a href="index.html">
@@ -19,32 +19,39 @@
 					</div>
 				</a>
 				<nav class="menu">
-					<ul class="menu__ul">
-						<li class="menu__li"><a class="menu__link" href="#home">home</a></li>
-						<li class="menu__li"><a class="menu__link" href="#aboutus">About us</a></li>
-						<li class="menu__li"><a class="menu__link" href="#blog">blog</a></li>
-						<li class="menu__li"><a class="menu__link" href="#works">works</a></li>
+					<ul class="menu-ul">
+						<li class="menu-li"><a class="menu-link" href="#home">home</a></li>
+						<li class="menu-li"><a class="menu-link" href="#aboutus">About us</a></li>
+						<li class="menu-li"><a class="menu-link" href="#blog">blog</a></li>
+						<li class="menu-li"><a class="menu-link" href="#works">works</a></li>
 					</ul>
+					<div class="burger-menu">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
 				</nav>
 			</div>
 		</div>
 	</header>
-	<div class="container">
-		<section class="welcome">
-			<h1 class="welcome-text">
-				carpentry workshop
-			</h1>
-		</section>
+	<div class="welcome-container">
+		<div class="container">
+			<section class="welcome">
+				<h1 class="welcome-text">
+					carpentry workshop
+				</h1>
+			</section>
+		</div>
 	</div>
 	<main class="main">
 		<div class="container _gap">
 			<section class="about" id="aboutus">
-				<h2 class="header-h2">
+				<h2 class="about-header title-h2">
 					about us
 				</h2>
-				<div class="content">
-					<img class="image" src="IMG/about_us.jpg" alt="about_us">
-					<p class="text">
+				<div class="about-content content">					
+					<img class="about-image image" src="IMG/about_us.jpg" alt="about_us">					
+					<p class="about-text text">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id
 						tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod. Class
 						aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent mattis
@@ -54,23 +61,23 @@
 				</div>
 			</section>
 		</div>
-		<div class="container-gray">
+		<div class="container-gray container">
 			<div class="container">
 				<section class="blog" id="blog">
-					<h2 class="header-h2">
+					<h2 class="blog-header title-h2">
 						blog
 					</h2>
 					<div class="blog-cards">
 						<a href="#">
 							<article class="blog-card">
-								<h3 class="header-h3">
+								<h3 class="card1-title title-h3">
 									Furniture construction
 								</h3>
 								<div class="card-image">
-									<img class="card-img" src="IMG/blog1.jpg" alt="blog_image">
+									<img class="card1-img card-img" src="IMG/blog1.jpg" alt="blog_image">
 								</div>
 								<div class="card-content">
-									<p class="card-text">
+									<p class="card1-text card-text">
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis
 										cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit
 										eleifend euismod.
@@ -80,14 +87,14 @@
 						</a>
 						<a href="#">
 							<article class="blog-card">
-								<h3 class="header-h3">
+								<h3 class="card2-title title-h3">
 									Carpentry tools
 								</h3>
 								<div class="card-image">
-									<img class="card-img" src="IMG/blog2.jpg" alt="blog_image">
+									<img class="card2-img card-img" src="IMG/blog2.jpg" alt="blog_image">
 								</div>
 								<div class="card-content">
-									<p class="card-text">
+									<p class="card2-text card-text">
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis
 										cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit
 										eleifend euismod.
@@ -97,14 +104,14 @@
 						</a>
 						<a href="#">
 							<article class="blog-card">
-								<h3 class="header-h3">
+								<h3 class="card3-title title-h3">
 									Our expirience
 								</h3>
 								<div class="card-image">
-									<img class="card-img" src="IMG/blog3.jpg" alt="blog_image">
+									<img class="card3-img card-img" src="IMG/blog3.jpg" alt="blog_image">
 								</div>
 								<div class="card-content">
-									<p class="card-text">
+									<p class="card3-text card-text">
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis
 										cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit
 										eleifend euismod.
@@ -118,23 +125,41 @@
 		</div>
 		<div class="container _gap">
 			<section class="works" id="works">
-				<h2 class="header-h2">
+				<h2 class="works-header title-h2">
 					works
 				</h2>
-				<div class="content">
-					<img class="image" src="IMG/works.jpg" alt="works">
-					<p class="text">
+				<div class="works-content content">
+					<img class="works-image image" src="IMG/works.jpg" alt="works">
+					<p class="works-text text">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent mattis ultrices est, congue ullamcorper erat bibendum pulvinar. In accumsan dapibus accumsan. Maecenas semper est ut nunc feugiat, vel ultrices ligula commodo. Donec eget pulvinar nunc, eget pharetra risus.
 					</p>
 				</div>
 			</section>
 		</div>
 	</main>
-	<footer class="ftr">
-		<div class="ftr__content">
+	<footer class="footer">
+		<div class="footer-content">
 			© COPYRIGHT 2022
 		</div>
 	</footer>
+	<script>
+		let burger_menu = document.querySelector(".burger-menu");
+		let menu_ul = document.querySelector(".menu-ul");
+		burger_menu.addEventListener("click", () => {
+		burger_menu.classList.toggle("burger-menu-close");
+		menu_ul.classList.toggle("menu-show");
+		document.querySelector("body").classList.toggle("no-scroll");
+		});
+
+	/*===close on menu item click===*/
+		let menu_link = document.querySelectorAll(".menu-ul");
+		menu_link.forEach (n => n.addEventListener("click", closeMenu));
+		function closeMenu(){
+			burger_menu.classList.toggle("burger-menu-close");
+			menu_ul.classList.toggle("menu-show");
+			document.querySelector("body").classList.toggle("no-scroll");
+		}
+	</script>
 </body>
 
 </html>
