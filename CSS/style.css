@@ -653,7 +653,7 @@ main{
 	}
 }
 
-@media only screen and (min-device-width:320.2px) and (max-device-width:767.8px){
+@media only screen and (min-device-width:428.2px) and (max-device-width:767.8px){
 	a:active{
 		color:inherit;
 	}
@@ -824,5 +824,251 @@ main{
 	}
 	._gap{
 		gap: 10px;
+	}
+}
+@media only screen and (min-device-width: 320.2px) and (max-device-width: 428px){
+	a:active{
+		color:inherit;
+	}
+	body{
+		scroll-behavior: smooth;
+	}
+	.container{
+		max-width: 320px;
+		margin: 0 auto;
+	}
+	.header-container{
+		display: flex;
+		justify-content: space-between;
+		height: 110px;
+		align-items: center;
+	}
+	.header{
+		background-color: #FFFFFF;
+	}
+	.logo{
+		font-weight: 500;
+		font-size: 24px;;
+		line-height: 150%;
+		color: #5E8D7C;
+		padding-left: 24px;
+	}
+	.menu-ul{
+		display: flex;
+	}
+	.menu-li{
+		padding-left: 38px;
+	}
+	.menu-link{
+		text-transform: uppercase;
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 150%;
+		color: #000000;
+	}
+	.menu-li:first-child{
+		padding-left: 0;
+	}
+	main{
+		background-color: #FFFFFF;
+	}
+	.welcome-container{
+		background-image: url("../IMG/welcome_mobile.jpg");
+		background-repeat: no-repeat;
+		background-position: top;
+		margin: 0 auto;
+		height: 622px;
+		width: 320px;
+	}
+	.welcome{
+		text-transform: uppercase;
+		font-weight: 500;
+		font-size: 36px;
+		line-height: 147.22%;
+		padding-top: 225px;
+		padding-left: 72px;
+		padding-right: 73px;
+		color: #81502C;
+	}
+	.title-h2{
+		text-transform: uppercase;
+		font-weight: 500;
+		font-size: 28px;
+		line-height: 146.4%;		
+		text-align: center;
+	}
+	.about-header{
+		padding-top: 34px;
+	}
+	.content{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.about-content{
+		margin-top: 34px;
+	}
+	.about-image{
+		width: 320px;
+		height: 228px;
+		object-fit: cover;
+	}
+	.works-image{
+		width: 320px;
+		height: 207px;
+		object-fit: cover;
+	}
+	.text{
+		font-weight: 300;
+		font-size: 20px;
+		line-height: 150%;
+	}
+	.about-text{
+		padding-top: 30px;
+		padding-left: 28px;
+		padding-right: 27px;
+		padding-bottom: 60px;
+	}
+	.blog-header{
+		padding-top: 38px;
+		padding-bottom: 32px;
+	}
+	.blog-cards{
+		display: flex;
+		flex-direction: column;
+	}
+	.blog-card{
+		display: flex;
+		flex-direction: column;
+		width: 320px;
+		height: 474px;
+		background-color: #FFFFFF;
+		margin-bottom: 32px;
+	}
+	.title-h3{
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 150%;
+		text-align: left;
+		padding-left: 28px;
+		padding-top: 20px;	
+	}
+	.card-image{
+		margin-top: 21px;
+		width: 320px;
+		object-fit: cover;
+	}
+	.card-img{
+		width: 100%;
+		object-fit: cover;
+	}
+	.card-content{
+		padding-left: 28px;
+		padding-right: 28px;
+		padding-top: 21px;
+		overflow: hidden;
+		white-space: normal;
+	}
+	.card-text{
+		font-weight: 300;
+		font-size: 18px;
+		line-height: 150%;
+		text-align: left;	
+	}
+	.works-header{
+		padding-top: 36px;
+	}
+	.works-content{
+		margin-top: 33px;
+	}
+	.works-text{
+		padding-top: 29px;
+		padding-left: 31px;
+		padding-right: 30px;
+		padding-bottom: 24px;
+	}
+	.footer{
+		height: 80px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #FFFFFF;
+	}
+	.footer-content{
+		text-transform: uppercase;
+		font-weight: 300;
+		font-size: 20px;
+		line-height: 150%;
+	}
+	.container-gray{
+		background-color: #EFEFEF;
+		max-width: 320px;
+		text-align: center;
+	}
+	
+	.burger-menu span{
+		background: #5E8D7C;
+		height: 5px;
+		position: absolute;
+		width: 100%;
+		left: 0;
+		transition: all 0.3s ease;
+	}
+	.burger-menu span:first-child{
+		top: 0;
+	}
+	.burger-menu span:nth-child(2){
+		top: 10px;
+	}
+	 .burger-menu span:last-child{
+		top: 20px;
+	}
+	.burger-menu{
+		display: block;
+		width: 39px;
+		height: 25px;
+		cursor: pointer;
+		position: absolute;
+		left: 296px;
+		top: 43px;
+		z-index: 100;
+	}
+	.menu-ul{
+		position: fixed;
+		top:0;
+		padding-top: 100px;
+		z-index: 100;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		height: 100%;
+		width: 100%;
+		background: #EFEFEF;
+		overflow: auto;
+		right: -100%;
+		transition: right 0.7s;
+	}
+	.burger-menu-close span:first-child{
+		transform: rotate(45deg);
+		top: 6px; 
+	}
+	.burger-menu-close span:nth-child(2){
+		opacity: 0;
+	}
+	.burger-menu-close span:last-child{
+		transform: rotate(-45deg);
+		top: 6px;
+	}
+	.menu-ul.menu-show{
+		display: flex;
+		top:0;
+		right:0;	
+	}
+	.menu-li{
+		padding:0;
+	}
+	body.no-scroll{
+		overflow: hidden;
 	}
 }
