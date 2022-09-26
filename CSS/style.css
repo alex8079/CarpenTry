@@ -653,7 +653,7 @@ main{
 	}
 }
 
-@media only screen and (min-device-width:428.2px) and (max-device-width:767.8px){
+@media only screen and (min-device-width:360.2px) and (max-device-width:767.8px){
 	a:active{
 		color:inherit;
 	}
@@ -826,7 +826,7 @@ main{
 		gap: 10px;
 	}
 }
-@media only screen and (min-device-width: 320.2px) and (max-device-width: 428px){
+@media only screen and (min-device-width: 320.2px) and (max-device-width: 360px){
 	a:active{
 		color:inherit;
 	}
