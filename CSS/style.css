@@ -826,7 +826,7 @@ main{
 		gap: 10px;
 	}
 }
-@media only screen and (min-device-width: 320.2px) and (max-device-width: 428px){
+@media only screen and (min-device-width: 320.2px) and (max-device-width: 576px){
 	a:active{
 		color:inherit;
 	}
@@ -1030,7 +1030,7 @@ main{
 		height: 25px;
 		cursor: pointer;
 		position: absolute;
-		left: 296px;
+		left: 306px;
 		top: 43px;
 		z-index: 100;
 	}
